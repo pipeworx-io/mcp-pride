@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/pride",
   "title": "Pride",
   "description": "EBI PRIDE Archive MCP — proteomics (mass-spectrometry) data repository.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/pride",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-pride",
