@@ -1,0 +1,42 @@
+[
+  {
+    "name": "search_projects",
+    "description": "Search EBI PRIDE Archive — the largest public proteomics/mass-spectrometry dataset repository — for projects by keyword (disease, organism, technique, protein, instrument). Returns matching project accessions with title, organisms, diseases, and instruments. Keyless.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "keyword": {
+          "type": "string",
+          "description": "Free-text search term, e.g. \"breast cancer\", \"SARS-CoV-2\", \"TMT\"."
+        },
+        "limit": {
+          "type": "number",
+          "description": "Max results per page (default 20, max 100)."
+        },
+        "page": {
+          "type": "number",
+          "description": "Zero-based page index (default 0)."
+        }
+      },
+      "required": [
+        "keyword"
+      ]
+    }
+  },
+  {
+    "name": "get_project",
+    "description": "Get full metadata for one PRIDE Archive proteomics project by accession (e.g. \"PXD000001\"): title, description, sample-processing and data-processing protocols, organisms, organism parts, diseases, instruments, keywords, and DOI.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "accession": {
+          "type": "string",
+          "description": "PRIDE project accession, e.g. \"PXD000001\"."
+        }
+      },
+      "required": [
+        "accession"
+      ]
+    }
+  }
+]
