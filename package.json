@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-pride",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "EBI PRIDE Archive MCP — proteomics (mass-spectrometry) data repository. Keyless. Wraps the public PRIDE Archive REST API (v3).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "pride",
     "gatewaySlug": "pride",
-    "sourceHash": "v1-8488238c2163b118cb4f18fe2c8ee351054574cff7826672ba54e4b171845793",
-    "sourceCommit": "6bae4cfa7b6a73bbe014dc8820a19c80c842b21e"
+    "sourceHash": "v1-768c2442f9064d351d1b30e1561ad437c08c423bb05bfbdf728192623ecba687",
+    "sourceCommit": "db27387ed3ef7ec4805d465f7964a7f65f937006"
   }
 }
